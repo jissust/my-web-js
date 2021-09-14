@@ -13,6 +13,8 @@ import Presentation from './components/Presentation';
 import Specialities from './components/Specialities';
 import Services from './components/Services';
 import Sectors from './components/Sectors';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -25,6 +27,8 @@ const App = () => {
                     <Specialities />
                     <Services />
                     <Sectors />
+                    <Contact />
+                    <Footer />
                 </Route>
             </Switch>
         </Router>
