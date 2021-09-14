@@ -11,6 +11,7 @@ import Nav from './components/Nav';
 import Slide from './components/Slide';
 import Presentation from './components/Presentation';
 import Specialities from './components/Specialities';
+import Services from './components/Services';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                     <Slide />
                     <Presentation />
                     <Specialities />
+                    <Services />
                 </Route>
             </Switch>
         </Router>
