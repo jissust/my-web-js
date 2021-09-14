@@ -12,6 +12,7 @@ import Slide from './components/Slide';
 import Presentation from './components/Presentation';
 import Specialities from './components/Specialities';
 import Services from './components/Services';
+import Sectors from './components/Sectors';
 
 const App = () => {
     return (
@@ -23,6 +24,7 @@ const App = () => {
                     <Presentation />
                     <Specialities />
                     <Services />
+                    <Sectors />
                 </Route>
             </Switch>
         </Router>
