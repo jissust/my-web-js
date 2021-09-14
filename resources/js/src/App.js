@@ -9,6 +9,7 @@ import {
 
 import Nav from './components/Nav';
 import Slide from './components/Slide';
+import Presentation from './components/Presentation';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route exact path="/">
                     <Nav />
                     <Slide />
+                    <Presentation />
                 </Route>
             </Switch>
         </Router>
