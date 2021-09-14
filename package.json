@@ -12,8 +12,8 @@
     "devDependencies": {
         "@babel/preset-react": "^7.13.13",
         "axios": "^0.21",
-        "bootstrap": "^4.6.0",
-        "jquery": "^3.6",
+        "bootstrap": "^5.1.0",
+        "jquery": "^3.6.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "popper.js": "^1.16.1",
@@ -25,6 +25,7 @@
         "sass-loader": "^11.0.1"
     },
     "dependencies": {
+        "react-bootstrap": "^2.0.0-beta.6",
         "react-router-dom": "^5.3.0"
     }
 }

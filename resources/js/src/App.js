@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import Nav from './components/Nav';
+import Slide from './components/Slide';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Switch>
                 <Route exact path="/">
                     <Nav />
+                    <Slide />
                 </Route>
             </Switch>
         </Router>
