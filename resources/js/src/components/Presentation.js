@@ -1,5 +1,5 @@
 import React from 'react';
-import imgPresentation1 from './img/presentation/1.jpg';
+import imgPresentation1 from './img/presentation/4.jpg';
 
 const Presentation = () => {
 	return (

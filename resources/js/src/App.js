@@ -10,6 +10,7 @@ import {
 import Nav from './components/Nav';
 import Slide from './components/Slide';
 import Presentation from './components/Presentation';
+import Specialities from './components/Specialities';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Nav />
                     <Slide />
                     <Presentation />
+                    <Specialities />
                 </Route>
             </Switch>
         </Router>
